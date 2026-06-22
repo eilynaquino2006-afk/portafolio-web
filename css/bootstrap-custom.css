@@ -1,0 +1,107 @@
+a{
+	outline:0 !important;	
+}
+.navbar-dark {
+	background-color:transparent !important;
+	font-size:16px;
+	text-transform: uppercase;
+}
+.navbar-dark.navbar-nav .nav-link{
+	color:#000;	
+	font-weight:400;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#FFFFFF;
+}
+.navbar-dark .navbar-nav .active .nav-link{
+	background-color:transparent;
+	color:#8626D9;
+}
+.navbar-dark .navbar-nav .active .nav-link:hover{
+	background-color:transparent;
+	color:#8626D9;
+}
+
+.navbar-dark {
+    width: 100%;
+    background-color: #000 !important;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link{
+	color: #fff;	
+}
+.navbar-dark .navbar-nav .show > .nav-link:focus,
+.navbar-dark .navbar-nav .show > .nav-link:hover{
+    color: #fff;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color:#212121;
+	border:0;
+}
+.dropdown-menu .dropdown-item{
+	font-weight:300!important;	
+}
+.navbar-dark .navbar-nav .show .dropdown-menu .dropdown-item{
+	color:#fff;
+}
+.navbar-dark .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-dark .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
+  color: #ff5518;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-dark .navbar-toggler{
+	background-color: transparent;
+	border:1px solid #000;
+}
+.navbar-dark .navbar-toggler:hover,
+.navbar-dark .navbar-toggler:focus
+{
+    background-color: transparent;
+	cursor:pointer;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-toggle:hover .icon-bar {
+    background-color: #8B2588;
+	cursor:pointer;
+}
+.navbar-dark .navbar-brand {
+	color:#363636;		
+	height: auto;
+}
+.navbar-dark .navbar-brand:hover {
+ 	color:#1F81BF;
+}
+	
+
+.navbar-dark .navbar-toggler i{
+	color: #fff;
+	font-size: 24px;
+}
+
+.navbar img {
+    width: 80px;
+	height: 80px;
+}
+
+.team-carousel img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+

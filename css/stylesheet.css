@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Flavors&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+#navbar{
+	background-color: #000000;
+	padding: 5px 0;
+	font-family: "Flavors", cursive;
+}
+
+
+#hero{
+	padding: 250px;
+	background-image: url("../img/img_hero.png");
+	background-size:contain;
+	background-position: center;
+    background-repeat: no-repeat;
+	linear-gradient: rgba(0,0,0,0.7);
+	background-color:#0B0B0B;
+	font-family: "Flavors", cursive;
+	color: #FFFFFF;
+	
+	
+}
+#hero h1{
+	text-align: center;
+	
+}
+#hero h1:hover{
+	color:#6100C8;
+	transition:0.3s;
+}
+
+#acerca-de-mi{
+	padding: 50px;
+	background-color: #111111;
+	
+}
+
+#acerca-de-mi h3{
+	text-align: center;
+	font-family: "Flavors", cursive;
+}
+#acerca-de-mi p{
+	font-family: "Cabin Sketch", sans-serif;
+	color: #E2E2E2;
+}
+#acerca-de-mi img{
+	align-content: center;
+	padding: 50px;
+}
+	
+
+#servicios{
+	padding: 50px;
+	background-color: #0B0B0B;
+}
+#servicios h3{
+	text-align: center;
+	font-family: "Flavors", cursive;
+}
+#servicios h4{
+	font-family: "Cabin Sketch", sans-serif;
+	color: #E2E2E2;
+}
+#servicios p,li{
+	font-family: "Cabin Sketch", sans-serif;
+	color: #E2E2E2;
+}
+#proyectos{
+	padding: 100px;
+	background-color: #111111;
+}
+#proyectos h3{
+	font-family: "Flavors", cursive;
+	text-align: center;
+}
+#copyright{
+	padding: 35px;
+	text-align: center;
+}
+#form{
+	padding: 35px;
+	color:#E2E2E2;
+}
+#contacto{
+	background-color:#0B0B0B;
+}
+#contacto h4{
+	font-family: "Flavors", cursive;
+}
+#contacto label,h6,p{
+	font-family: "Cabin Sketch", sans-serif;
+}
+
+#contacto button{
+	color:#E2E2E2;
+    font-family: "Cabin Sketch", sans-serif;
+	background-color: #6100C8;
+}
+#copyright{
+	background-color:#2E0060;
+	color: #E2E2E2;
+	font-family: "Flavors", cursive;
+}
+
+#acerca-de-mi h3:hover{
+	color:#6100C8;
+	transition:0.3s;
+}
+
+#servicios h3:hover{
+	color:#6100C8;
+	transition:0.3s;
+}
+
+#proyectos h3:hover{
+	color:#6100C8;
+	transition:0.3s;
+}
+
+
+@media (max-width:800px){
+	h1{
+		font-size: 30px;
+	}
+	#hero{
+		max-width: 800px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
